@@ -50,16 +50,15 @@ configuration command.
 ### Or checkout the source ###
 
 If you want a newer version of the code than the tarball you might have, you
-can always check it out over the net. We use Bazaar (`bzr`), an advanced
+can always check it out over the net. We use Git, an advanced
 third-generation Distributed Version [or Revision] Control System, to manage
 our source code. 
 
 Getting a checkout is easy:
 
     $ cd ~/src/
-    $ mkdir java-gnome/
-    $ git clone git://github.com/afcowie/java-gnome.git mainline
-    $ cd mainline/
+    $ git clone git://github.com/afcowie/java-gnome.git
+    $ cd java-gnome/
     $ less README.markdown
 
 2. Run `./configure`
